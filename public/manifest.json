@@ -1,0 +1,29 @@
+{
+  "name": "1SP Plan Management",
+  "short_name": "PlanManagement",
+  "description": "Plan management modules demo with pwa feature.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "purpose": "maskable",
+      "sizes": "520x520",
+      "src": "/images/logo/icon.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "520x520",
+      "src": "/images/logo/icon.png",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo/icon512_rounded.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
