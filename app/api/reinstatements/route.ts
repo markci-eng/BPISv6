@@ -5,14 +5,11 @@ export async function POST(req: Request) {
   try {
     const body = await req.json();
 
-    await fetch(
-      "https://erlene-ungerminating-acknowledgedly.ngrok-free.dev/Reinstate",
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(body),
-      },
-    );
+    await fetch("http://localhost:5062/Reinstate", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    });
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error(error);
@@ -48,13 +45,10 @@ export async function POST(req: Request) {
 
 export async function GET() {
   try {
-    const res = await fetch(
-      "https://erlene-ungerminating-acknowledgedly.ngrok-free.dev/Reinstate",
-      {
-        method: "GET",
-        headers: { "Content-Type": "application/json" },
-      },
-    );
+    const res = await fetch("http://localhost:5062/Reinstate", {
+      method: "GET",
+      headers: { "Content-Type": "application/json" },
+    });
 
     if (!res.ok) {
       // Handle HTTP errors
