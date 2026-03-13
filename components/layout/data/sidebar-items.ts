@@ -19,22 +19,22 @@ export const SideBarItemsBranch: NavItem[] = [
     label: "Sales Agent Management",
     subItems: [
       {
-        label:"Sales Agent Profile",
+        label: "Sales Agent Profile",
         href: "/sales-force",
       },
       {
         label: "Movement",
-        href: "/sales-force/movement"
+        href: "/sales-force/movement",
       },
       {
         label: "Re-Assign",
-        href: "/sales-force/re-assign"
+        href: "/sales-force/re-assign",
       },
       {
         label: "SFID",
-        href: "/sales-force/sfid"
-      }
-    ]
+        href: "/sales-force/sfid",
+      },
+    ],
   },
   {
     label: "Document Management",
@@ -70,7 +70,7 @@ export const SideBarItemsBranch: NavItem[] = [
       { label: "Add New Sale", href: "/plan-management/add" },
       { label: "Planholder Profile", href: "/plan-management/planholder" },
       { label: "Change of Mode", href: "/plan-management/change-of-mode" },
-      { label: "COFP Transmittal", href: "/plan-management/cofp" },
+      { label: "RI TEST", href: "/plan-management/reinstatement" },
     ],
   },
   {
@@ -84,10 +84,10 @@ export const SideBarItemsBranch: NavItem[] = [
   {
     icon: HiOutlineCurrencyDollar,
     label: "Payment",
-    subItems:[
-      {label:"Encode Payment", href: "/payment"},
-      {label: "Validated Deposit Slip", href:"/payment/validated-deposit"}
-    ]
+    subItems: [
+      { label: "Encode Payment", href: "/payment" },
+      { label: "Validated Deposit Slip", href: "/payment/validated-deposit" },
+    ],
   },
 
   {
@@ -105,10 +105,16 @@ export const SideBarItemsBranch: NavItem[] = [
   {
     icon: MdOutlineManageAccounts,
     label: "Accounts Maintenance",
-     subItems: [
+    subItems: [
       { label: "MCPR", href: "/accounts-maintenance/mcpr" },
-      { label: "Loading of Accounts", href: "/accounts-maintenance/accounts-loading" },
-      { label: "Tranfsfer of Accounts", href: "/accounts-maintenance/accounts-transfer" },
+      {
+        label: "Loading of Accounts",
+        href: "/accounts-maintenance/accounts-loading",
+      },
+      {
+        label: "Tranfsfer of Accounts",
+        href: "/accounts-maintenance/accounts-transfer",
+      },
     ],
   },
 
@@ -122,7 +128,7 @@ export const SideBarItemsBranch: NavItem[] = [
     icon: LuSettings2,
     label: "Utilities",
     href: "/utilities",
-  }
+  },
 ];
 
 export const SideBarItemsEKolekta: NavItem[] = [
@@ -190,5 +196,5 @@ export const SideBarItemsEKolekta: NavItem[] = [
     icon: RiDashboardLine,
     label: "Document Cancellation",
     href: "/dc",
-  }
+  },
 ];
