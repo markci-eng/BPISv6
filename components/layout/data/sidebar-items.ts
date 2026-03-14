@@ -70,7 +70,7 @@ export const SideBarItemsBranch: NavItem[] = [
       { label: "Add New Sale", href: "/plan-management/add" },
       { label: "Planholder Profile", href: "/plan-management/planholder" },
       { label: "Change of Mode", href: "/plan-management/change-of-mode" },
-      { label: "RI TEST (UPDATE)", href: "/plan-management/reinstatement" },
+      { label: "RI TEST [UPDATE]", href: "/plan-management/reinstatement" },
     ],
   },
   {
