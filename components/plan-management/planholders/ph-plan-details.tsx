@@ -260,7 +260,7 @@ export function PhPlanDetails({ props }: { props: PlanholdersProps }) {
             ))}
             
             <AddressCard id={"2"} addressType={"OFFICE"} addressNo={"524"} street={"REPARO STREET."} barangay={"161"} district={"DISTRICT II"} city={"CALOOCAN CITY"} province={"METRO MANILA"} zipCode={"1400"}/>
-            <AddAddressCard/>
+            {/*<AddAddressCard/>*/}
           </Flex>
         </Box>
 
